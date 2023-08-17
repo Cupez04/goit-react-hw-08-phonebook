@@ -1,0 +1,87 @@
+/* Formulario */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #3498db; /* Borde azul */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Etiquetas de los campos */
+  .formLabel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  /* Campos de entrada */
+  .formInput {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* Botón de envío */
+  .formButton {
+    padding: 10px;
+    background-color: #27ae60; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form-button:disabled {
+    background-color: #95a5a6; /* Gris cuando está desactivado */
+    cursor: not-allowed;
+  }
+
+  /* ------------ */
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+  }
+  
+  /* Etiquetas de los campos */
+  .loginLabel {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  /* Campos de entrada */
+  .loginInput {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* Botón de envío */
+  .loginButton {
+    padding: 10px;
+    background-color: #27ae60; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:disabled {
+    background-color: #95a5a6; /* Gris cuando está desactivado */
+    cursor: not-allowed;
+  }
